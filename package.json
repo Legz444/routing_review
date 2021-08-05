@@ -1,0 +1,21 @@
+{
+  "name": "routing_review",
+  "version": "1.0.0",
+  "description": "Step by Step REact Routing for a 7 Restful Routes CRUD Application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "Allegra Hilburger",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-react-views": "^0.11.0",
+    "mongoose": "^5.13.5",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0"
+  }
+}
